@@ -1,0 +1,123 @@
+@media (max-width: 992px) {
+  .el-form-item {
+    display: block;
+  }
+  .el-form-item__label {
+    display: block;
+    text-align: left;
+    padding: 0 0 10px;
+  }
+  .el-dialog {
+    width: 90% !important;
+  }
+  .el-dialog.is-fullscreen {
+    width: 100% !important;
+  }
+  .el-drawer.rtl {
+    width: 90% !important;
+  }
+  .el-form-item__content {
+    margin-left: 0px !important;
+  }
+  .adminui-main > .el-container {
+    display: block;
+    height: auto;
+  }
+  .adminui-main > .el-container > .el-aside {
+    width: 100% !important;
+    border: 0;
+  }
+  .scTable .el-table,
+  .scTable .el-table__body-wrapper {
+    display: block !important;
+    height: auto !important;
+  }
+  .scTable .el-scrollbar__wrap {
+    height: auto !important;
+  }
+  .scTable .scTable-page {
+    padding: 0 5px !important;
+  }
+  .scTable .el-pagination__total,
+  .scTable .el-pagination__jump,
+  .scTable .el-pagination__sizes {
+    display: none !important;
+  }
+  .headerPublic, .adminui-main > .el-container > .el-header, .adminui-main > .el-container > .el-container > .el-header {
+    height: auto !important;
+    display: block;
+  }
+  .headerPublic .left-panel, .adminui-main > .el-container > .el-header .left-panel, .adminui-main > .el-container > .el-container > .el-header .left-panel {
+    overflow: auto;
+  }
+  .headerPublic .left-panel::-webkit-scrollbar, .adminui-main > .el-container > .el-header .left-panel::-webkit-scrollbar, .adminui-main > .el-container > .el-container > .el-header .left-panel::-webkit-scrollbar {
+    display: none;
+  }
+  .headerPublic .right-panel, .adminui-main > .el-container > .el-header .right-panel, .adminui-main > .el-container > .el-container > .el-header .right-panel {
+    display: block;
+    border-top: 1px solid var(--el-border-color-light);
+    margin-top: 15px;
+  }
+  .headerPublic .right-panel .right-panel-search, .adminui-main > .el-container > .el-header .right-panel .right-panel-search, .adminui-main > .el-container > .el-container > .el-header .right-panel .right-panel-search {
+    display: block;
+  }
+  .headerPublic .right-panel .right-panel-search > *, .adminui-main > .el-container > .el-header .right-panel .right-panel-search > *, .adminui-main > .el-container > .el-container > .el-header .right-panel .right-panel-search > * {
+    width: 100%;
+    margin: 0;
+    margin-top: 15px;
+  }
+  .adminui-main > .el-container > *:first-child:not(.el-aside):not(.el-header) {
+    border: 0;
+    margin-top: 0;
+  }
+  .adminui-main > .el-container > *:first-child:not(.el-aside):not(.el-header) + .el-aside {
+    margin-top: 0;
+  }
+  .adminui-main > .el-container > .el-aside {
+    border-bottom: 1px solid var(--el-border-color-light) !important;
+  }
+  .adminui-main > .el-container > .el-container {
+    border-top: 1px solid var(--el-border-color-light);
+    border-bottom: 1px solid var(--el-border-color-light);
+    margin-top: 15px;
+  }
+  .adminui-main > .el-container > .el-container + .el-aside {
+    border-top: 1px solid var(--el-border-color-light);
+    margin-top: 15px;
+  }
+  .adminui-main > .el-container > .el-main.nopadding {
+    border-top: 1px solid var(--el-border-color-light);
+    border-bottom: 1px solid var(--el-border-color-light);
+    margin-top: 15px;
+  }
+  .adminui-main > .el-container > .el-main + .el-aside {
+    border-left: 0 !important;
+    border-top: 1px solid var(--el-border-color-light);
+    margin-top: 15px;
+  }
+  .adminui-main > .el-container > .el-footer {
+    margin-top: 15px;
+    border-bottom: 1px solid var(--el-border-color-light);
+  }
+  .adminui-main > .el-container > .el-container > .el-header .left-panel {
+    display: block;
+  }
+  .adminui-main > .el-container > .el-container > .el-header .right-panel {
+    display: block;
+    margin-top: 15px;
+  }
+  .sc-page {
+    width: 100%;
+    margin: 0;
+  }
+  .common-main .el-form {
+    width: 100% !important;
+  }
+  .common-header-logo label {
+    display: none;
+  }
+  .common-header-title {
+    display: none;
+  }
+}
+/*# sourceMappingURL=media.css.map */

@@ -1,0 +1,68 @@
+export default {
+  code: 200,
+  data: {
+    id: "1",
+    name: "用戶列表",
+    code: "userList",
+    remoteSort: true,
+    remoteFilter: true,
+    column: [
+      {
+        label: "ID",
+        prop: "id",
+        width: "80",
+        hide: true,
+        sortable: false,
+        fixed: false,
+        filters: [],
+      },
+      {
+        label: "頭像",
+        prop: "avatar",
+        width: "80",
+        hide: false,
+        sortable: false,
+        fixed: false,
+        filter: true,
+        filters: [
+          {
+            text: "未上傳",
+            value: "0",
+          },
+          {
+            text: "已上傳",
+            value: "1",
+          },
+        ],
+      },
+      {
+        label: "登入帳號",
+        prop: "userName",
+        width: "150",
+        hide: false,
+        sortable: false,
+        fixed: false,
+        filters: [],
+      },
+      {
+        label: "姓名",
+        prop: "name",
+        width: "150",
+        hide: false,
+        sortable: false,
+        fixed: false,
+        filters: [],
+      },
+      {
+        label: "加入時間",
+        prop: "date",
+        width: "150",
+        hide: false,
+        sortable: false,
+        fixed: false,
+        filters: [],
+      },
+    ],
+  },
+  message: "",
+};

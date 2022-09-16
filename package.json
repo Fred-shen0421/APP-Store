@@ -1,0 +1,54 @@
+{
+	"name": "csi-admin",
+	"version": "1.2.0",
+	"private": true,
+	"scripts": {
+		"serve": "vue-cli-service serve",
+		"build": "vue-cli-service build --report",
+		"lint": "vue-cli-service lint"
+	},
+	"dependencies": {
+		"@element-plus/icons-vue": "^2.0.4",
+		"@tinymce/tinymce-vue": "5.0.0",
+		"@videojs/themes": "^1.0.1",
+		"axios": "0.27.2",
+		"codemirror": "5.65.5",
+		"core-js": "3.22.8",
+		"cropperjs": "1.5.12",
+		"crypto-js": "4.1.1",
+		"echarts": "5.3.2",
+		"element-plus": "2.2.4",
+		"flv.js": "^1.6.2",
+		"nprogress": "0.2.0",
+		"qrcodejs2": "0.0.2",
+		"sortablejs": "1.15.0",
+		"tinymce": "6.0.3",
+		"video.js": "^7.20.1",
+		"videojs-contrib-hls": "^5.15.0",
+		"videojs-flvjs-es6": "^1.0.1",
+		"vue": "3.2.36",
+		"vue-i18n": "9.1.10",
+		"vue-router": "4.0.15",
+		"vuedraggable": "4.0.3",
+		"vuex": "4.0.2"
+	},
+	"devDependencies": {
+		"@babel/core": "7.18.2",
+		"@babel/eslint-parser": "7.18.2",
+		"@vue/cli-plugin-babel": "5.0.4",
+		"@vue/cli-plugin-eslint": "5.0.4",
+		"@vue/cli-service": "5.0.4",
+		"axios-mock-adapter": "^1.21.1",
+		"eslint": "8.17.0",
+		"eslint-plugin-vue": "9.1.0",
+		"postcss-preset-env": "^7.7.2",
+		"sass": "1.37.5",
+		"sass-loader": "10.1.1"
+	},
+	"browserslist": [
+		"> 1%",
+		"last 2 versions",
+		"not dead",
+		"not ie 11"
+	]
+}
